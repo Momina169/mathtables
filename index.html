@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_bootstrap.min.css"> 
+   
+    <title>Math Tables</title>
+    <style>
+        body{
+            background-image: url(bg-no.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .bg-bisque{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-danger bg-bisque display-3">Math Tables</h1>
+   <div class="container">
+    <input type="number" autofocus id="no" class=" bg-bisque p-3 rounded" placeholder="Enter Number...">
+
+    <input type="button"  onclick="calc()" value="Enter" id="submit" class="btn text-white rounded bg-danger">
+
+    <p id="display"></p>
+   </div>
+
+   <script src="script.js"></script>
+
+    <script src="js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
